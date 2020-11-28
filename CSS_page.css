@@ -1,0 +1,415 @@
+body{
+  background-color: black;
+}
+
+.logo_glitch{
+  background:white;
+  color:black;
+  position:relative;
+  top:-20px;
+  left: -1rem;
+ text-align: center;
+  width:89.7rem;
+  padding:9px;
+  top:-1.5rem;
+ padding-left:3rem;
+}
+
+#img_logo{
+position: absolute;
+top:4.5rem;
+left:0;
+width: 25rem;
+
+}
+
+
+
+/****************{Main} ****/
+
+.header-lists a{
+  color:black;
+  text-decoration:none;
+  float:left;
+  padding-left:30px;
+  font-size:20px;
+  list-style:none;
+  position:relative;
+  top:-80px;
+  left:30rem;
+  }
+
+#About_Channel img{
+  width:30rem;
+  position:relative;
+  top:3rem;
+  left:-20rem;
+}
+
+.About_des{
+  border-left:2px solid white;
+  height:20rem;
+  position:absolute;
+  left:25rem;
+  top:6rem;
+  
+}
+
+
+.des h1{
+  position:relative;
+  left:4rem;
+  top:-1rem;
+  font-size:3rem;
+  color: white;
+}
+.des p{
+  color:white;
+  position:relative;
+  top:-2rem;
+  left:1rem;
+  font-size:1.5rem;
+  
+}
+
+
+#Visit{
+  position: absolute;
+  margin-left: 65rem;
+  top:5rem;
+  font-weight: bold;
+  width: 11rem;
+  height: 8rem;
+  font-family: agency fb;
+  font-size:2rem;
+  border-radius: 42px; 
+  border:5px solid gray;
+  
+  background-color:#FD3832 ;
+  color:white;
+  cursor: pointer;
+  
+}
+
+#Visit:hover{
+  transition-duration: 2s;
+  color:white;
+  background:url("https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fmarketingland.com%2Fwp-content%2Fml-loads%2F2014%2F08%2Fyoutube-iconsbkgd-fade-1920.jpg&f=1&nofb=1") center center no-repeat;
+  background-size: cover;
+   border:5px solid gray;
+}
+
+/*** YOUTUBE **/
+#youtube{
+    background:white;
+  color:black;
+  position:relative;
+  top:23rem;
+  left:-1rem;
+width: 92.1rem;
+  height:15rem;
+  padding:9px;
+
+}
+
+#youtube img{
+  position:absolute;
+  top:10px;
+  left:3rem;
+  
+}
+
+#youtube h2{
+  position:absolute;
+  color:red;
+  margin-left: 22rem;
+  top:-2rem;
+  color:black;
+  font-weight:bold;
+  font-size:5rem;
+  
+}
+
+#youtube p{
+  color:black;
+  font-size:1.5rem;
+     margin-left: 20rem;
+  top:6rem;
+  position:relative;
+}
+
+#youtube textarea{
+  position:absolute;
+    margin-left: 25rem;
+  top:12rem;
+  
+}
+
+
+/* BUTTONS */
+.Tiles{
+  position:relative;
+  top:30rem; 
+  margin-left:8rem;
+ 
+}
+
+.Gaming{
+  width:18rem;
+  height:5rem;
+  background:white;
+  color:black;
+  text-align:center;
+  border-radius:32px;
+  position:relative;
+  left:6rem;
+  top:0rem;
+}
+.Gaming h2{
+  padding-top:1.5rem;
+}
+
+.Computer_Related{
+  width:25rem;
+  height:5rem;
+  background:white;
+  color:black;
+  text-align:center;
+  border-radius:32px;
+  position:relative;
+  margin-left:25.5rem;
+  top:-6rem;
+}
+.Computer_Related h2{
+  padding-top:1.5rem;
+}
+
+.Education{
+  width:18rem;
+  height:5rem;
+  background:white;
+  color:black;
+  text-align:center;
+  border-radius:32px;
+  position:relative;
+  margin-left:52rem;
+  top:-12.2rem;
+}
+.Education h2{
+  padding-top:1.5rem;
+}
+
+.Gaming a{
+  color:black;
+  text-decoration:none;
+  
+}
+
+/* Hover */
+.Tiles:hover{
+  background:black;
+}
+.Gaming:hover{
+  background:url("https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fi.ytimg.com%2Fvi%2FtwPe4q7iFRQ%2Fmaxresdefault.jpg&f=1&nofb=1") center center no-repeat;
+  color: white;
+  background-size: cover;
+  transition-duration: 2s;
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+.Computer_Related:hover{
+  background:url("https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwww.ipswichcomputerrepairs.com.au%2Fwp-content%2Fuploads%2F2018%2F06%2Fshutterstock_578626606-hardware-repairs-min.jpg&f=1&nofb=1") center center no-repeat;
+  color: white;
+    background-size: cover;
+    transition-duration: 2s;
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+.Education:hover{
+  background:url("https://external-content.duckduckgo.com/iu/?u=http%3A%2F%2Fcdn.expertise.com%2Fdir%2Fcomputer-repair.jpg&f=1&nofb=1") center center no-repeat;
+  color: white;
+    background-size: cover;
+    transition-duration: 2s;
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+.Gaming a:hover{
+  color:white;
+
+  text-decoration:none;
+  
+}
+
+.Computer_Related a{
+  color:black;
+  text-decoration:none;
+  
+}
+.Computer_Related a:hover{
+  color:white;
+
+  text-decoration:none;
+  
+}
+.Education a{
+  color:black;
+  text-decoration:none;
+  
+}
+
+.Education a:hover{
+  color:white;
+
+  text-decoration:none;
+  
+}
+
+
+/* videos */
+.Recommended h2{
+  color:white;
+top:22rem;
+  left:2rem;
+  text-decoration:underline;
+  font-size:2.5rem;
+  position:relative;
+}
+
+.Videos_1{
+  position:relative;
+  top:25rem;
+
+  height:19.7rem;
+  background:white;
+  color:gray;
+    width:87rem;
+  margin-left: 1rem;
+}
+
+.video1 h1{
+  position:relative;
+  
+  height:17rem;
+  margin-left:37rem;
+  top:-20rem;
+}
+.video1 pre{
+  position:absolute;
+ color: black;
+  height:17rem;
+  margin-left:37rem;
+  top:5rem;
+  font-size: 1.5rem;
+}
+
+
+
+.Videos_2{
+  position:relative;
+  top:27rem;
+
+  height:19.7rem;
+  background:white;
+  color:gray;
+   width:87rem;
+margin-left: 1rem;
+}
+
+
+.video2 h1{
+  position:absolute;
+ color: gray;
+  height:17rem;
+  margin-left:37rem;
+  top:1rem;
+  
+}
+
+.video2 pre{
+   position:absolute;
+ color: black;
+  height:17rem;
+  margin-left:28rem;
+  top:5rem;
+  font-size: 1.5rem;
+}
+
+
+
+.Videos_3{
+  position:relative;
+  top:29rem;
+
+  height:19.7rem;
+  background:white;
+  color:gray;
+    width:87rem;
+  margin-left: 1rem;
+}
+
+.video3 h1{
+  position:absolute;
+ color: gray;
+  height:17rem;
+  margin-left:37rem;
+  top:1rem;
+}
+
+.video3 pre{
+   position:absolute;
+ color: black;
+  height:17rem;
+  margin-left:28rem;
+  top:5rem;
+  font-size: 1.5rem;
+}
+
+
+.Videos_4{
+  position:relative;
+  top:31rem;
+
+  height:19.7rem;
+  background:white;
+  color:gray;
+  width:87rem;
+ margin-left: 1rem;
+}
+
+.video4 h1{
+    position:absolute;
+ color: gray;
+  height:17rem;
+  margin-left:37rem;
+  top:1rem;
+}
+.video4 pre{
+   position:absolute;
+ color: black;
+  height:17rem;
+  margin-left:28rem;
+  top:5rem;
+  font-size: 1.5rem;
+}
+
+
+
+/* footer */
+
+.footer_bg{
+  position:relative;
+  bottom:-50rem;
+  background:white;
+  padding-left:93.25rem;
+  height:10rem;
+  left:-1rem;
+}
+
+.footer h1,p{
+  color:grey;
+  position:relative;
+  top:40rem;
+ padding-left:3rem;
+
+  
+}
